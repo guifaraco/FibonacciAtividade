@@ -26,7 +26,7 @@ public class IterativeFibonacci {
         int n = sc.nextInt();
 
         long tempoInicial = System.currentTimeMillis();
-        System.out.printf("O valor do fibonacci de " + n + " = " + fibonacci(n));
+        System.out.println("O valor do fibonacci de " + n + " = " + fibonacci(n));
         System.out.println("O metodo foi executado em: " + (System.currentTimeMillis() - tempoInicial));
         sc.close();
     }
